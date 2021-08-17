@@ -9,7 +9,8 @@ public class PropertiesReader {
     private Properties props;
 
     public PropertiesReader(String fileName) {
-        String rootPath = Thread.currentThread().getContextClassLoader().getResource("").getPath();
+//        String rootPath = Thread.currentThread().getContextClassLoader().getResource("").getPath();
+        String rootPath = "src/main/resources/";
         String filePath = rootPath + fileName;
         try (InputStream input = new FileInputStream(filePath)) {
             this.props = new Properties();

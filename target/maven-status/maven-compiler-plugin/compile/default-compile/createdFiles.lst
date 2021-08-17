@@ -1,0 +1,15 @@
+entity/Author.class
+entity/Book$Size.class
+client/HttpClient.class
+entity/Book$Additional.class
+service/GenreService.class
+utils/EndpointBuilder.class
+service/AuthorService.class
+config/ServiceConfig.class
+utils/PropertiesReader.class
+entity/Book.class
+response/BaseResponse.class
+utils/Listener.class
+entity/Genre.class
+service/BookService.class
+entity/ListOptions.class

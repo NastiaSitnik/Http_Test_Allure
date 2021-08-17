@@ -1,0 +1,13 @@
+/Users/nastasitnik/IdeaProjects/REST-test-framework-template_new/src/main/java/entity/Genre.java
+/Users/nastasitnik/IdeaProjects/REST-test-framework-template_new/src/main/java/service/GenreService.java
+/Users/nastasitnik/IdeaProjects/REST-test-framework-template_new/src/main/java/service/AuthorService.java
+/Users/nastasitnik/IdeaProjects/REST-test-framework-template_new/src/main/java/entity/Author.java
+/Users/nastasitnik/IdeaProjects/REST-test-framework-template_new/src/main/java/service/BookService.java
+/Users/nastasitnik/IdeaProjects/REST-test-framework-template_new/src/main/java/response/BaseResponse.java
+/Users/nastasitnik/IdeaProjects/REST-test-framework-template_new/src/main/java/config/ServiceConfig.java
+/Users/nastasitnik/IdeaProjects/REST-test-framework-template_new/src/main/java/entity/ListOptions.java
+/Users/nastasitnik/IdeaProjects/REST-test-framework-template_new/src/main/java/entity/Book.java
+/Users/nastasitnik/IdeaProjects/REST-test-framework-template_new/src/main/java/client/HttpClient.java
+/Users/nastasitnik/IdeaProjects/REST-test-framework-template_new/src/main/java/utils/PropertiesReader.java
+/Users/nastasitnik/IdeaProjects/REST-test-framework-template_new/src/main/java/utils/Listener.java
+/Users/nastasitnik/IdeaProjects/REST-test-framework-template_new/src/main/java/utils/EndpointBuilder.java

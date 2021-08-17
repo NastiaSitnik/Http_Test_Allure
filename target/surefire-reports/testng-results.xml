@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="20" passed="20" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2021-08-17T18:39:03Z" name="Surefire suite" finished-at="2021-08-17T18:39:10Z" duration-ms="6243">
+    <groups>
+    </groups>
+    <test started-at="2021-08-17T18:39:03Z" name="Surefire test" finished-at="2021-08-17T18:39:10Z" duration-ms="6243">
+      <class name="AuthorTest">
+        <test-method signature="createAuthorTest()[pri:0, instance:AuthorTest@3044e9c7]" started-at="2021-08-17T18:39:05Z" name="createAuthorTest" finished-at="2021-08-17T18:39:07Z" duration-ms="2559" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createAuthorTest -->
+        <test-method signature="deleteAuthorById()[pri:0, instance:AuthorTest@3044e9c7]" started-at="2021-08-17T18:39:08Z" name="deleteAuthorById" finished-at="2021-08-17T18:39:08Z" duration-ms="156" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deleteAuthorById -->
+        <test-method signature="getAllAuthors()[pri:0, instance:AuthorTest@3044e9c7]" started-at="2021-08-17T18:39:08Z" name="getAllAuthors" finished-at="2021-08-17T18:39:08Z" duration-ms="76" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getAllAuthors -->
+        <test-method signature="getAuthorById()[pri:0, instance:AuthorTest@3044e9c7]" started-at="2021-08-17T18:39:08Z" name="getAuthorById" finished-at="2021-08-17T18:39:08Z" duration-ms="145" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getAuthorById -->
+        <test-method signature="getAuthorByName()[pri:0, instance:AuthorTest@3044e9c7]" started-at="2021-08-17T18:39:08Z" name="getAuthorByName" finished-at="2021-08-17T18:39:08Z" duration-ms="127" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getAuthorByName -->
+        <test-method signature="updateGenre()[pri:0, instance:AuthorTest@3044e9c7]" started-at="2021-08-17T18:39:08Z" name="updateGenre" finished-at="2021-08-17T18:39:08Z" duration-ms="113" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- updateGenre -->
+      </class> <!-- AuthorTest -->
+      <class name="GenreTest">
+        <test-method signature="createGenreTest()[pri:0, instance:GenreTest@41d7b27f]" started-at="2021-08-17T18:39:08Z" name="createGenreTest" finished-at="2021-08-17T18:39:08Z" duration-ms="76" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createGenreTest -->
+        <test-method signature="deleteGenreById()[pri:0, instance:GenreTest@41d7b27f]" started-at="2021-08-17T18:39:08Z" name="deleteGenreById" finished-at="2021-08-17T18:39:08Z" duration-ms="67" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deleteGenreById -->
+        <test-method signature="getAllGenres()[pri:0, instance:GenreTest@41d7b27f]" started-at="2021-08-17T18:39:08Z" name="getAllGenres" finished-at="2021-08-17T18:39:08Z" duration-ms="29" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getAllGenres -->
+        <test-method signature="getGenreById()[pri:0, instance:GenreTest@41d7b27f]" started-at="2021-08-17T18:39:08Z" name="getGenreById" finished-at="2021-08-17T18:39:08Z" duration-ms="71" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getGenreById -->
+        <test-method signature="getGenreByName()[pri:0, instance:GenreTest@41d7b27f]" started-at="2021-08-17T18:39:08Z" name="getGenreByName" finished-at="2021-08-17T18:39:09Z" duration-ms="101" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getGenreByName -->
+        <test-method signature="updateGenre()[pri:0, instance:GenreTest@41d7b27f]" started-at="2021-08-17T18:39:09Z" name="updateGenre" finished-at="2021-08-17T18:39:09Z" duration-ms="100" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- updateGenre -->
+      </class> <!-- GenreTest -->
+      <class name="BookTest">
+        <test-method signature="createBookTest()[pri:0, instance:BookTest@49096b06]" started-at="2021-08-17T18:39:09Z" name="createBookTest" finished-at="2021-08-17T18:39:09Z" duration-ms="346" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createBookTest -->
+        <test-method signature="getAllBooks()[pri:0, instance:BookTest@49096b06]" started-at="2021-08-17T18:39:09Z" name="getAllBooks" finished-at="2021-08-17T18:39:09Z" duration-ms="28" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getAllBooks -->
+        <test-method signature="getBookByAuthorId()[pri:0, instance:BookTest@49096b06]" started-at="2021-08-17T18:39:09Z" name="getBookByAuthorId" finished-at="2021-08-17T18:39:09Z" duration-ms="37" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getBookByAuthorId -->
+        <test-method signature="getBookByAuthorIdAndGenreId()[pri:0, instance:BookTest@49096b06]" started-at="2021-08-17T18:39:09Z" name="getBookByAuthorIdAndGenreId" finished-at="2021-08-17T18:39:09Z" duration-ms="54" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getBookByAuthorIdAndGenreId -->
+        <test-method signature="getBookByGenreId()[pri:0, instance:BookTest@49096b06]" started-at="2021-08-17T18:39:09Z" name="getBookByGenreId" finished-at="2021-08-17T18:39:09Z" duration-ms="30" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getBookByGenreId -->
+        <test-method signature="getBookById()[pri:0, instance:BookTest@49096b06]" started-at="2021-08-17T18:39:09Z" name="getBookById" finished-at="2021-08-17T18:39:09Z" duration-ms="131" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getBookById -->
+        <test-method signature="getBookByName()[pri:0, instance:BookTest@49096b06]" started-at="2021-08-17T18:39:09Z" name="getBookByName" finished-at="2021-08-17T18:39:09Z" duration-ms="141" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getBookByName -->
+        <test-method signature="updateBook()[pri:0, instance:BookTest@49096b06]" started-at="2021-08-17T18:39:09Z" name="updateBook" finished-at="2021-08-17T18:39:10Z" duration-ms="183" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- updateBook -->
+      </class> <!-- BookTest -->
+    </test> <!-- Surefire test -->
+  </suite> <!-- Surefire suite -->
+</testng-results>

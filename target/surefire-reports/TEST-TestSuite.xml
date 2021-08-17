@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="TestSuite" time="7.678" tests="20" errors="0" skipped="0" failures="0">
+  <properties>
+    <property name="java.specification.version" value="16"/>
+    <property name="sun.jnu.encoding" value="UTF-8"/>
+    <property name="java.class.path" value="/usr/local/Cellar/maven/3.8.2/libexec/boot/plexus-classworlds-2.6.0.jar"/>
+    <property name="java.vm.vendor" value="Homebrew"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.vendor.url" value="https://github.com/Homebrew/homebrew-core/issues"/>
+    <property name="user.timezone" value="Europe/Kiev"/>
+    <property name="maven.conf" value="/usr/local/Cellar/maven/3.8.2/libexec/conf"/>
+    <property name="java.vm.specification.version" value="16"/>
+    <property name="os.name" value="Mac OS X"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="UA"/>
+    <property name="sun.boot.library.path" value="/usr/local/Cellar/openjdk/16.0.2/libexec/openjdk.jdk/Contents/Home/lib"/>
+    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher clean test"/>
+    <property name="http.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="maven.home" value="/usr/local/Cellar/maven/3.8.2/libexec"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="/Users/nastasitnik"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2021-07-20"/>
+    <property name="java.home" value="/usr/local/Cellar/openjdk/16.0.2/libexec/openjdk.jdk/Contents/Home"/>
+    <property name="file.separator" value="/"/>
+    <property name="java.vm.compressedOopsMode" value="Zero based"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="ftp.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="java.runtime.version" value="16.0.2+0"/>
+    <property name="user.name" value="nastasitnik"/>
+    <property name="path.separator" value=":"/>
+    <property name="os.version" value="11.3"/>
+    <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="java.vm.name" value="OpenJDK 64-Bit Server VM"/>
+    <property name="java.vendor.version" value="Homebrew"/>
+    <property name="java.vendor.url.bug" value="https://github.com/Homebrew/homebrew-core/issues"/>
+    <property name="java.io.tmpdir" value="/var/folders/4n/114g91nn64n_tvvcdqg8572r0000gn/T/"/>
+    <property name="java.version" value="16.0.2"/>
+    <property name="user.dir" value="/Users/nastasitnik/IdeaProjects/REST-test-framework-template_new"/>
+    <property name="os.arch" value="x86_64"/>
+    <property name="maven.multiModuleProjectDirectory" value="/Users/nastasitnik/IdeaProjects/REST-test-framework-template_new"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="java.library.path" value="/Users/nastasitnik/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:."/>
+    <property name="java.vm.info" value="mixed mode, sharing"/>
+    <property name="java.vendor" value="Homebrew"/>
+    <property name="java.vm.version" value="16.0.2+0"/>
+    <property name="classworlds.conf" value="/usr/local/Cellar/maven/3.8.2/libexec/bin/m2.conf"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeBig"/>
+    <property name="socksNonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="java.class.version" value="60.0"/>
+  </properties>
+  <testcase name="createAuthorTest" classname="AuthorTest" time="2.588"/>
+  <testcase name="deleteAuthorById" classname="AuthorTest" time="0.157"/>
+  <testcase name="getAllAuthors" classname="AuthorTest" time="0.078"/>
+  <testcase name="getAuthorById" classname="AuthorTest" time="0.145"/>
+  <testcase name="getAuthorByName" classname="AuthorTest" time="0.129"/>
+  <testcase name="updateGenre" classname="AuthorTest" time="0.114"/>
+  <testcase name="createGenreTest" classname="GenreTest" time="0.077"/>
+  <testcase name="deleteGenreById" classname="GenreTest" time="0.067"/>
+  <testcase name="getAllGenres" classname="GenreTest" time="0.03"/>
+  <testcase name="getGenreById" classname="GenreTest" time="0.073"/>
+  <testcase name="getGenreByName" classname="GenreTest" time="0.101"/>
+  <testcase name="updateGenre" classname="GenreTest" time="0.102"/>
+  <testcase name="createBookTest" classname="BookTest" time="0.347"/>
+  <testcase name="getAllBooks" classname="BookTest" time="0.03"/>
+  <testcase name="getBookByAuthorId" classname="BookTest" time="0.039"/>
+  <testcase name="getBookByAuthorIdAndGenreId" classname="BookTest" time="0.055"/>
+  <testcase name="getBookByGenreId" classname="BookTest" time="0.033"/>
+  <testcase name="getBookById" classname="BookTest" time="0.133"/>
+  <testcase name="getBookByName" classname="BookTest" time="0.144"/>
+  <testcase name="updateBook" classname="BookTest" time="0.185"/>
+</testsuite>

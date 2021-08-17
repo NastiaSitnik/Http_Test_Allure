@@ -1,6 +1,12 @@
 package response;
 
+import entity.Genre;
+import io.qameta.allure.Attachment;
+import io.restassured.internal.MultiValueEntity;
+import io.restassured.internal.NameAndValue;
 import io.restassured.response.Response;
+
+import java.util.ArrayList;
 
 public class BaseResponse<T> {
     protected Response response;
@@ -19,7 +25,12 @@ public class BaseResponse<T> {
         return this.response.getHeader(header);
     }
 
+//    public T getBody() {
+//        return this.response.body().as(this.responseClass);
+//    }
+
     public T getBody() {
         return this.response.body().as(this.responseClass);
     }
+
 }

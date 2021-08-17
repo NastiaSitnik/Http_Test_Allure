@@ -1,0 +1,157 @@
+HTTP/1.1 200 
+Content-Type: application/json;charset=UTF-8
+Transfer-Encoding: chunked
+Date: Tue, 17 Aug 2021 18:39:09 GMT
+
+[
+    {
+        "bookId": 5,
+        "bookName": "Maxime vel nesciunt",
+        "bookLanguage": "german",
+        "bookDescription": "Reprehenderit veniam rem. Est nisi quidem. Qui dolorem error consequatur id.",
+        "additional": {
+            "pageCount": 397,
+            "size": {
+                "height": 5.2,
+                "width": 11.1,
+                "length": 2.2
+            }
+        },
+        "publicationYear": 1984
+    },
+    {
+        "bookId": 24,
+        "bookName": "Nihil dolores aperiam",
+        "bookLanguage": "english",
+        "bookDescription": "Assumenda tempore ut id ut id maiores. Odio distinctio quasi cumque assumenda sit. Aspernatur eum veritatis. Illum veritatis asperiores ratione illo quas quaerat numquam. Iusto provident voluptatem nulla.",
+        "additional": {
+            "pageCount": 850,
+            "size": {
+                "height": 26.9,
+                "width": 25.1,
+                "length": 2.7
+            }
+        },
+        "publicationYear": 1995
+    },
+    {
+        "bookId": 37,
+        "bookName": "Impedit assumenda illo excepturi",
+        "bookLanguage": "farsi",
+        "bookDescription": "Provident fugiat rerum. Veniam ut assumenda maxime repudiandae pariatur. Repudiandae pariatur est in.",
+        "additional": {
+            "pageCount": 146,
+            "size": {
+                "height": 24.4,
+                "width": 29.4,
+                "length": 2.4
+            }
+        },
+        "publicationYear": 1996
+    },
+    {
+        "bookId": 98,
+        "bookName": "Ut ut temporibus",
+        "bookLanguage": "polish",
+        "bookDescription": "Voluptatem similique sunt eum qui cum animi. Iste velit unde rerum et natus et. Sint impedit quis delectus quo aut. Alias qui quasi quisquam dolorum omnis et.",
+        "additional": {
+            "pageCount": 458,
+            "size": {
+                "height": 26.1,
+                "width": 22.7,
+                "length": 2.9
+            }
+        },
+        "publicationYear": 1999
+    },
+    {
+        "bookId": 195,
+        "bookName": "Et rerum quis",
+        "bookLanguage": "croatian",
+        "bookDescription": "Placeat aut doloribus aliquam sit rerum quia quia. Sequi praesentium eos amet non rerum ea ipsa. Odit dolorem dicta nisi. Ipsam quas assumenda illum. In libero adipisci.",
+        "additional": {
+            "pageCount": 21,
+            "size": {
+                "height": 9.4,
+                "width": 13.5,
+                "length": 4.8
+            }
+        },
+        "publicationYear": 2008
+    },
+    {
+        "bookId": 198,
+        "bookName": "Dolorem quibusdam rerum doloremque",
+        "bookLanguage": "german",
+        "bookDescription": "Corporis corporis delectus voluptas dolores autem omnis. Sed recusandae expedita adipisci qui ullam dicta. Qui culpa eos.",
+        "additional": {
+            "pageCount": 528,
+            "size": {
+                "height": 28.0,
+                "width": 5.1,
+                "length": 1.9
+            }
+        },
+        "publicationYear": 2018
+    },
+    {
+        "bookId": 254,
+        "bookName": "Voluptate ipsa consequatur sit",
+        "bookLanguage": "english",
+        "bookDescription": "Dolores aliquam cum ut voluptas quae voluptas corrupti. Laboriosam aut pariatur facilis. Minus adipisci perspiciatis.",
+        "additional": {
+            "pageCount": 314,
+            "size": {
+                "height": 18.6,
+                "width": 24.9,
+                "length": 4.8
+            }
+        },
+        "publicationYear": 2016
+    },
+    {
+        "bookId": 267,
+        "bookName": "Dignissimos veritatis quos",
+        "bookLanguage": "arabic",
+        "bookDescription": "Iure cupiditate dolorem voluptates neque aspernatur. Et aliquam repellat sapiente hic ad. Atque aut error nesciunt id labore id. Autem accusantium distinctio.",
+        "additional": {
+            "pageCount": 71,
+            "size": {
+                "height": 10.0,
+                "width": 17.7,
+                "length": 2.3
+            }
+        },
+        "publicationYear": 2011
+    },
+    {
+        "bookId": 406,
+        "bookName": "Exercitationem cumque esse sapiente",
+        "bookLanguage": "russian",
+        "bookDescription": "Sint nostrum et rerum dolore accusamus. Fugit iusto consectetur. Ipsum nisi hic. Magni sit a.",
+        "additional": {
+            "pageCount": 681,
+            "size": {
+                "height": 8.7,
+                "width": 33.9,
+                "length": 2.3
+            }
+        },
+        "publicationYear": 1972
+    },
+    {
+        "bookId": 413,
+        "bookName": "Non adipisci ut vero",
+        "bookLanguage": "chinese",
+        "bookDescription": "Numquam exercitationem cum omnis deleniti. Ea rem voluptas cumque eligendi sit ea dolore. Similique sunt sint. Sint itaque ut. Temporibus ut voluptatibus.",
+        "additional": {
+            "pageCount": 865,
+            "size": {
+                "height": 32.4,
+                "width": 14.9,
+                "length": 1.5
+            }
+        },
+        "publicationYear": 1984
+    }
+]

@@ -1,0 +1,49 @@
+Request method:	GET
+Request URI:	http://localhost:8080/api/library/authors
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+Request method:	POST
+Request URI:	http://localhost:8080/api/library/author
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "authorId": 2199,
+    "authorName": {
+        "first": "Nastia",
+        "second": "Sitnik"
+    },
+    "nationality": "ukrainian",
+    "birth": {
+        "date": "2001-04-24",
+        "country": "Ukraine",
+        "city": "Lviv"
+    },
+    "authorDescription": "Something"
+}
+Request method:	DELETE
+Request URI:	http://localhost:8080/api/library/author/2199
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>

@@ -1,9 +1,12 @@
 package client;
 
 import config.ServiceConfig;
+import io.restassured.RestAssured;
 import io.restassured.http.Method;
 import io.restassured.response.Response;
 import io.restassured.specification.RequestSpecification;
+
+import java.util.ArrayList;
 
 import static io.restassured.RestAssured.*;
 
@@ -12,6 +15,7 @@ public class HttpClient {
     public static Response get(String endpoint) {
         return HttpClient.sendRequest(Method.GET, endpoint);
     }
+
 
     public static Response post(String endpoint, String body) {
         return HttpClient.sendRequest(Method.POST, endpoint, body);
@@ -30,10 +34,12 @@ public class HttpClient {
     }
 
     private static Response sendRequest(Method method, String endpoint, String body) {
-        String url = ServiceConfig.HOST + endpoint;
-        RequestSpecification spec = given();
+        RestAssured.baseURI = ServiceConfig.HOST;
+
+        RequestSpecification spec = RestAssured.given();
+        spec.header("Content-Type", "application/json");
         if (body != null) spec.body(body);
-        Response response = spec.request(method, url);
-        return response;
+        return spec.request(method, endpoint);
+
     }
 }

@@ -1,0 +1,169 @@
+HTTP/1.1 200 
+Content-Type: application/json;charset=UTF-8
+Transfer-Encoding: chunked
+Date: Tue, 17 Aug 2021 18:39:07 GMT
+
+[
+    {
+        "authorId": 261,
+        "authorName": {
+            "first": "Jamal",
+            "second": "Hessel"
+        },
+        "nationality": "Luxembourger",
+        "birth": {
+            "date": "1982-05-06",
+            "country": "Turks and Caicos Islands",
+            "city": "Okunevaside"
+        },
+        "authorDescription": "Debitis facilis sed voluptatem deleniti ipsum ea voluptatibus. Amet dicta repudiandae consectetur ut qui distinctio quo. Dignissimos sapiente reprehenderit necessitatibus."
+    },
+    {
+        "authorId": 837,
+        "authorName": {
+            "first": "Kaylee",
+            "second": "Cummerata"
+        },
+        "nationality": "Slovenian",
+        "birth": {
+            "date": "1985-11-10",
+            "country": "Bermuda",
+            "city": "South Nilsmouth"
+        },
+        "authorDescription": "Natus nam illum optio sed. Illo labore vero ut sed tempora asperiores. Enim et ex nihil perferendis."
+    },
+    {
+        "authorId": 878,
+        "authorName": {
+            "first": "Lela",
+            "second": "Lehner"
+        },
+        "nationality": "Irish",
+        "birth": {
+            "date": "1964-08-18",
+            "country": "French Southern Territories",
+            "city": "Port Judge"
+        },
+        "authorDescription": "In praesentium eum sequi consequatur est dolores. Iusto nihil harum magnam. Necessitatibus totam perspiciatis qui et. Hic culpa sit odit ut voluptatem ea placeat. Sunt ut qui quos officia quo non."
+    },
+    {
+        "authorId": 1282,
+        "authorName": {
+            "first": "Michele",
+            "second": "Lind"
+        },
+        "nationality": "Luxembourger",
+        "birth": {
+            "date": "1945-07-16",
+            "country": "Afghanistan",
+            "city": "Adellestad"
+        },
+        "authorDescription": "Sequi et quisquam cupiditate est. Maiores commodi vero esse soluta similique. Sint nostrum incidunt laboriosam. Nulla deleniti natus. Commodi a praesentium vel hic esse nostrum distinctio."
+    },
+    {
+        "authorId": 1300,
+        "authorName": {
+            "first": "Cassie",
+            "second": "Considine"
+        },
+        "nationality": "French",
+        "birth": {
+            "date": "1988-09-22",
+            "country": "Iraq",
+            "city": "Meaganview"
+        },
+        "authorDescription": "Est veritatis quo est. Repudiandae vitae et qui facilis iusto nulla. Sed ex dolor. Pariatur alias qui."
+    },
+    {
+        "authorId": 1449,
+        "authorName": {
+            "first": "Westley",
+            "second": "Purdy"
+        },
+        "nationality": "Chinese",
+        "birth": {
+            "date": "1979-10-10",
+            "country": "Colombia",
+            "city": "Isadoreview"
+        },
+        "authorDescription": "Nihil mollitia magnam. Voluptas assumenda sit et occaecati. Qui voluptatem earum."
+    },
+    {
+        "authorId": 1577,
+        "authorName": {
+            "first": "Angel",
+            "second": "Davis"
+        },
+        "nationality": "Indian",
+        "birth": {
+            "date": "1974-01-15",
+            "country": "Mauritania",
+            "city": "Bauchland"
+        },
+        "authorDescription": "Veniam a consequatur. In numquam ducimus vel laudantium. Praesentium in ea aut corrupti cupiditate porro. Officiis consectetur non a. Eius ea aut temporibus maxime tenetur dolorum quas."
+    },
+    {
+        "authorId": 1893,
+        "authorName": {
+            "first": "Barton",
+            "second": "Zemlak"
+        },
+        "nationality": "American",
+        "birth": {
+            "date": "1929-05-09",
+            "country": "Liechtenstein",
+            "city": "West Franz"
+        },
+        "authorDescription": "Consectetur numquam eum error est. Nam maxime eum totam et. Culpa vel debitis."
+    },
+    {
+        "authorId": 2022,
+        "authorName": {
+            "first": "Reginald",
+            "second": "Wolff"
+        },
+        "nationality": "Moldovan",
+        "birth": {
+            "date": "1998-09-09",
+            "country": "Czech Republic",
+            "city": "Pfefferberg"
+        },
+        "authorDescription": "Aut voluptas odio sit quae. Iure non voluptates commodi quae deleniti. Est autem ut. Qui ipsam cumque autem dolorem. Omnis animi perferendis."
+    },
+    {
+        "authorId": 2198,
+        "authorName": {
+            "first": "Virginia",
+            "second": "Carter"
+        },
+        "nationality": "Kittian and Nevisian",
+        "birth": {
+            "date": "1977-06-29",
+            "country": "Sweden",
+            "city": "Othahaven"
+        },
+        "authorDescription": "Et praesentium ratione ut. Molestias est est nesciunt sunt non aspernatur. Doloremque at dolor."
+    }
+]
+HTTP/1.1 201 
+Content-Type: application/json;charset=UTF-8
+Transfer-Encoding: chunked
+Date: Tue, 17 Aug 2021 18:39:07 GMT
+
+{
+    "authorId": 2199,
+    "authorName": {
+        "first": "Nastia",
+        "second": "Sitnik"
+    },
+    "nationality": "ukrainian",
+    "birth": {
+        "date": "2001-04-24",
+        "country": "Ukraine",
+        "city": "Lviv"
+    },
+    "authorDescription": "Something"
+}
+HTTP/1.1 204 
+Content-Type: application/json;charset=UTF-8
+Date: Tue, 17 Aug 2021 18:39:08 GMT
