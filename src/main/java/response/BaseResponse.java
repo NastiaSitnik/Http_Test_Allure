@@ -7,6 +7,7 @@ import io.restassured.internal.NameAndValue;
 import io.restassured.response.Response;
 
 import java.util.ArrayList;
+import java.util.List;
 
 public class BaseResponse<T> {
     protected Response response;
@@ -25,8 +26,8 @@ public class BaseResponse<T> {
         return this.response.getHeader(header);
     }
 
-//    public T getBody() {
-//        return this.response.body().as(this.responseClass);
+//    public List<T> getBodyList() {
+//        return this.response.body().jsonPath().getList("$", this.responseClass);
 //    }
 
     public T getBody() {
